@@ -1,0 +1,9 @@
+
+@tailwind base; @tailwind components; @tailwind utilities;
+
+:root {
+  --flare-coral: #ff6b6b;
+}
+.btn { @apply rounded-2xl px-5 py-3 font-medium transition; }
+.btn-primary { @apply bg-[color:var(--flare-coral)] text-white hover:opacity-90; }
+.card { @apply p-4 rounded-2xl bg-white shadow; }
